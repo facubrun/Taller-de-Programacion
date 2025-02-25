@@ -1,0 +1,39 @@
+.fila-viaje {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fila-viaje:hover {
+    background-color: #f5f5f5;
+}
+
+.contenedor-imagen-viaje {
+    width: 100px;
+}
+
+.imagen-viaje {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.informacion-viaje {
+    padding-left: 15px;
+    width: calc(100% - 100px);
+}
+
+.titulo-viaje {
+    margin: 0 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.descripcion-viaje, .detalles-viaje {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}

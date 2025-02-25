@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.aerolinea,
+.RutaVuelo,
+.vuelo {
+    margin: 10px;
+}
+
+.aerolinea,
+.RutaVuelo,
+.vuelo,
+.nombre,
+.fecha,
+.duracion,
+.capacidad-turistas,
+.capacidad-ejecutiva,
+.fecha-alta {
+    display: flex;
+    flex-direction: column;
+}
+
+.aerolinea label,
+.RutaVuelo label,
+.vuelo label,
+.nombre label,
+.fecha label,
+.duracion label,
+.capacidad-turistas label,
+.capacidad-ejecutiva label,
+.fecha-alta label {
+    margin-bottom: 5px;
+}
+
+.aerolinea select,
+.RutaVuelo select,
+.vuelo select,
+.nombre input,
+.fecha input,
+.duracion input,
+.capacidad-turistas input,
+.capacidad-ejecutiva input,
+.fecha-alta input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-consulta {
+    padding: 10px;
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-consulta:hover {
+    background-color: #555;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+th:first-child,
+td:first-child {
+    border-left: none;
+}

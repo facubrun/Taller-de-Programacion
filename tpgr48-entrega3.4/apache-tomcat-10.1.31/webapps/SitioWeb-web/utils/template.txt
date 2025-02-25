@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Volando.uy | name</title>
+        <link rel="stylesheet" type="text/css" href="../css/name.css"> <!--aca va el css del caso! -->
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+    </head>
+    <body>
+        <iframe frameborder="0" style="height: 105px;  width: 100%" src="../html/header.html" id="header"></iframe>
+        <iframe frameborder="0" style="width: 300px; height: calc(100vh - 105px); position: absolute; top: 105px; left: 0;" src="../html/side-menu.html" id="side-menu"></iframe>
+        <div class="main-page">
+            <div class="main-content">
+                <!--aca va el html del caso! -->
+            </div> 
+        </div>
+    </body>
+</html>

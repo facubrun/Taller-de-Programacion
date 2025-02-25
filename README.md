@@ -1,2 +1,2 @@
 # Taller-de-Programacion
-Tareas curso Taller de Programación FING
+Proyecto en grupo usando Java, HTML/CSS y Javascript

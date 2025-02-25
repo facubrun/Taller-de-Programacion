@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-page {
+    margin-left: 300px;
+}
+
+.main-content {
+    min-height: calc(100vh - 105px);
+    padding: 20px;
+}

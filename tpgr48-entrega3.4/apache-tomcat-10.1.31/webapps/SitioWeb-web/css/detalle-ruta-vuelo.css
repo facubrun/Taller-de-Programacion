@@ -1,0 +1,53 @@
+.detalle-vuelo {
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.titulo-detalle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.contenido-detalle {
+    display: flex;
+    gap: 20px;
+}
+
+.imagen-container {
+    flex: 1;
+}
+
+.imagen-detalle {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info-detalle {
+    flex: 2;
+    font-size: 16px;
+}
+
+.info-detalle p, .info-detalle li {
+    margin: 8px 0;
+    color: #34495e;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li {
+    margin: 4px 0;
+}
+
+.icono-responsive {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
